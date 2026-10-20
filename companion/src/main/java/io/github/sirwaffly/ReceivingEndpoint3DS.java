@@ -19,32 +19,28 @@ public class ReceivingEndpoint3DS
     public void heartbeat(@RequestParam String titleid) throws NoDiscordClientException
     {
 
-        // If there is no previous title ID we assign it a value
-        if(previousTitleID == null)
+        String gameName = Database.getName(titleid);
+        String imageName = Database.getImage(titleid);
+
+        if (previousTitleID != null)
         {
-
-            previousTitleID = titleid;
-
-        } else {
 
             // If the previous title ID has a value, and we are displaying an activity, we check if it's the same as the current one
             // If not, we clear the activity and toggle the activity status off
-            if(!previousTitleID.equalsIgnoreCase(titleid) && isActivityAlive)
+            if (!previousTitleID.equalsIgnoreCase(titleid) && isActivityAlive)
             {
 
                 discord.clear();
                 isActivityAlive = false;
+                System.out.println("Stopped displaying game status");
 
             }
 
-            previousTitleID = titleid;
-
         }
 
-        heartbeatReceived = true;
+        previousTitleID = titleid;
 
-        String gameName = Database.getName(titleid);
-        String imageName = Database.getImage(titleid);
+        heartbeatReceived = true;
 
         // If the title ID has a matching name on the database we set the activity status true and show the game we're playing
         // We only do this if the activity was previously set to false, if it's true that means we're already displaying a game
@@ -54,9 +50,11 @@ public class ReceivingEndpoint3DS
             if (!isActivityAlive) {
                 discord.showGame(gameName, imageName);
                 isActivityAlive = true;
+                System.out.println("Displaying game status for " + gameName);
             }
 
         }
+
     }
 
     // Every 10 seconds we check if the companion has received a heartbeat from the 3DS and we set it to false
@@ -70,6 +68,7 @@ public class ReceivingEndpoint3DS
         {
             discord.clear();
             isActivityAlive = false;
+            System.out.println("Stopped displaying game status");
         }
 
         heartbeatReceived = false;
