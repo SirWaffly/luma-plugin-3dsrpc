@@ -13,7 +13,7 @@ public class DiscordPresence
 
     private IPCClient client;
 
-    // Show the game on the Discord profile
+    // Show the game on the Discord profile and connect to the application
     public void showGame(String gameName, String imageName) throws NoDiscordClientException
     {
 
@@ -28,7 +28,7 @@ public class DiscordPresence
 
     }
 
-    // Remove the game from the Discord profile
+    // Remove the game from the Discord profile and disconnect from the application
     public void clear()
     {
 

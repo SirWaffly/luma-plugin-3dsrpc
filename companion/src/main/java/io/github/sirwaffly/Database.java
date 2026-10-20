@@ -441,7 +441,7 @@ public class Database
 
     );
 
-    // Returns the game's name, or a fallback if the title ID is not in the list
+    // Returns the game's name, or null if the title ID is not in the list
     public static String getName(String titleId)
     {
 
@@ -456,7 +456,7 @@ public class Database
 
     }
 
-    // Returns the name of the game's icon, or null if the title ID is not in the list
+    // Returns the icon's name, or null if the title ID is not in the list
     public static String getImage(String titleId)
     {
 
