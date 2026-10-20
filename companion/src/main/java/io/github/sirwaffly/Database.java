@@ -343,6 +343,13 @@ public class Database
         Map.entry("0004000000080E00", new Game("Star Fox 64 3D", "star-fox-64-3d")), // Korea
         Map.entry("0004000000080A00", new Game("Star Fox 64 3D", "star-fox-64-3d")), // Taiwan
 
+        // StreetPass Mii Plaza
+        Map.entry("0004001000021900", new Game("StreetPass Mii Plaza", "streetpass-mii-plaza")), // USA
+        Map.entry("0004001000022900", new Game("StreetPass Mii Plaza", "streetpass-mii-plaza")), // Europe
+        Map.entry("0004001000020900", new Game("StreetPass Mii Plaza", "streetpass-mii-plaza")), // Japan
+        Map.entry("0004001000027900", new Game("StreetPass Mii Plaza", "streetpass-mii-plaza")), // Korea
+        Map.entry("0004001000028900", new Game("StreetPass Mii Plaza", "streetpass-mii-plaza")), // Taiwan
+
         // Super Mario 3D Land
         Map.entry("0004000000054000", new Game("Super Mario 3D Land", "super-mario-3d-land")), // USA
         Map.entry("0004000000053F00", new Game("Super Mario 3D Land", "super-mario-3d-land")), // Europe
