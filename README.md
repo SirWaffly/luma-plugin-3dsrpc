@@ -14,9 +14,9 @@ Right now there are 2 popular ways of getting Discord RPC functionality on 3DS. 
 
 Plugin loader should be enabled for this to work. There are two separate ways of installing this plugin. 1 would be installing it separately for every game you own and 2 would be setting luma-plugin-3dsrpc as the default plugin for Luma3DS across all games.
 
-### OPtion 1: Inside of the root of your 3DS' SD card there should be a luma plugins folder at /luma/plugins. Create a folder with the Title ID of the game you wish to install the plugin for. It should look something like this /luma/plugins/000400000008C400 (I'm using the Title ID of Tomodachi Life's EU version as an example). Then we drop "luma-plugin-3dsrpc-release.3gx" inside of the game's ID folder.
+OPtion 1: Inside of the root of your 3DS' SD card there should be a luma plugins folder at /luma/plugins. Create a folder with the Title ID of the game you wish to install the plugin for. It should look something like this /luma/plugins/000400000008C400 (I'm using the Title ID of Tomodachi Life's EU version as an example). Then we drop "luma-plugin-3dsrpc-release.3gx" inside of the game's ID folder.
 
-### OPtion 2: Inside of the same plugin folder used in the previous method there should be a "default.3gx". In most installations this plugin is HokakuCTR, this is a plugin made by the Pretendo team meant to log multiplayer traffic. If you intend to restore this plugin as the default at a later date I recommend renaming it to something like "default.3gx.bak". After that you put "luma-plugin-3dsrpc-release.3gx" inside of that same folder and rename it to "default.3gx".
+OPtion 2: Inside of the same plugin folder used in the previous method there should be a "default.3gx". In most installations this plugin is HokakuCTR, this is a plugin made by the Pretendo team meant to log multiplayer traffic. If you intend to restore this plugin as the default at a later date I recommend renaming it to something like "default.3gx.bak". After that you put "luma-plugin-3dsrpc-release.3gx" inside of that same folder and rename it to "default.3gx".
 
 IMPORTANT: BOTH METHODS NEED A "luma-plugin-3dsrpc.conf" FILE INSIDE OF /luma/plugins OR ELSE IT WILL NOT WORK. The structure of the config file needs to be the following.
 
