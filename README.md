@@ -6,6 +6,8 @@ This README is a WIP
 
 Contact is @sirwaffly on discord for any help.
 
+This project is licensed under the PolyForm Noncommercial License 1.0.0.
+
 ## Why this plugin was created
 
 Right now there are 2 popular ways of getting Discord RPC functionality on 3DS. One of them is friend request based, and the other one requires a custom Luma3DS fork, which makes playing CTGP-7 impossible (without bypassing the anticheat). My solution aims to be privacy-focused as everything is run locally and does not require a fork of Luma3DS since it's a plugin that works with the vanilla version of Luma3DS.
@@ -28,6 +30,8 @@ port=47800
 ## How to install the companion app on PC
 
 The companion app has only been tested on windows. It is still not finished, therefore this section is still a WIP.
+
+You have two ways of using the companion PC app. Either download the .jar file (smaller in size but requires a java 25 installation or newer) or you can download the .zip file that doesn't require a java installation. Right now it is not possible to change the port through any means other than directly modifying the source code, so I don't recommend changing the port on the Luma3DS plugin.
 
 ## CTGP-7
 
