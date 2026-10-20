@@ -1,0 +1,25 @@
+{
+  "env": {
+    "devkitpro" : "C:/devkitPro",
+    "devkitarm" : "${devkitpro}/devkitARM",
+    "ctrulib" : "${devkitpro}/libctru",
+    "ctrpflib" : "${devkitpro}/libctrpf"
+  },
+  "configurations": [
+    {
+      "name": "luma-plugin-3dsrpc - Windows",
+      "includePath":
+      [
+          "${workspaceFolder}/Includes/**",
+          "${ctrpflib}/include/**",
+          "${ctrulib}/include/**"
+      ],
+      "defines": ["__3DS__"],
+      "cStandard": "c11",
+      "cppStandard": "gnu++11",
+      "compilerPath": "${devkitarm}/bin/arm-none-eabi-g++.exe",
+      "intelliSenseMode": "gcc-arm"
+    }
+  ],
+  "version": 4
+}

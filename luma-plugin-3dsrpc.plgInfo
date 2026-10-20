@@ -1,0 +1,23 @@
+Author: SirWaffly
+
+Version:
+    Major: 0
+    Minor: 1
+    Revision: 0
+
+Targets: # Low TitleId of games which are compatible with this plugin (0 for all)
+
+Title: luma-plugin-3dsrpc
+
+Summary: Discord Rich Presence for the 3DS
+
+Description: |
+  A privacy-focused alternative for Discord Rich Presence on the 3DS.
+  Reports the game you're playing to a companion app on your PC,
+  which shows it on your Discord profile.
+
+Compatibility: Any
+
+MemorySize: 5MiB
+
+UsePrivateMemory: false
