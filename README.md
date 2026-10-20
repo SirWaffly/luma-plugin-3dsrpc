@@ -1,4 +1,4 @@
-![Logo](companion/src/main/resources/icon.png)
+![Logo](icon512x.png)
 
 # luma-plugin-3dsrpc
 
