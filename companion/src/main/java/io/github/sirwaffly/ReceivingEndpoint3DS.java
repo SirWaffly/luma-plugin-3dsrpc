@@ -13,10 +13,30 @@ public class ReceivingEndpoint3DS
     DiscordPresence discord = new DiscordPresence();
     volatile boolean isActivityAlive = false;
     volatile boolean heartbeatReceived = false;
+    String previousTitleID;
 
     @GetMapping("/")
     public void heartbeat(@RequestParam String titleid) throws NoDiscordClientException
     {
+
+        if(previousTitleID == null)
+        {
+
+            previousTitleID = titleid;
+
+        } else {
+
+            if(!previousTitleID.equalsIgnoreCase(titleid) && isActivityAlive)
+            {
+
+                discord.clear();
+                isActivityAlive = false;
+
+            }
+
+            previousTitleID = titleid;
+
+        }
 
         heartbeatReceived = true;
 
