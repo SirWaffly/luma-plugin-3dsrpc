@@ -35,14 +35,39 @@ port=47800
 
 The companion app has only been tested on windows.
 
-You have two ways of using the companion PC app. Either download the .jar file (smaller in size but requires a java 25 installation or newer) or you can download the .zip file that doesn't require a java installation. Right now it is not possible to change the port through any means other than directly modifying the source code, so I don't recommend changing the port on the Luma3DS plugin. 
+You have two ways of using the companion PC app. Either download the .jar file (smaller in size but requires a java 25 installation or newer) or you can download the .zip file that doesn't require a java installation. If you need to change the port in any way you'll need the .jar file and to run it like this:
+
+```
+java -jar luma-plugin-3dsrpc-companion.jar --server.port=50000
+```
 
 IF YOU OPEN THE .EXE IT WILL BE DISPLAYED AS A SYSTEM TRAY ICON, IF YOU WANT THE TERMINAL WINDOW YOU'LL HAVE TO USE THE .JAR.
 
 To run it automatically every time you turn on your PC you can create a shortcut to the .exe and put it on the startup folder. You can get there by pressing "windows key" + "r" and typing "shell:startup". It consumes roughly 160mb of memory while running in the background.
 
-![Logo](SystemResources.png)
+![Memory usage](SystemResources.png)
 
 ## CTGP-7
 
-As mentioned before, both methods of installation let you play in CTGP-7. But as CTGP-7 uses it's own Luma3DS plugin, discord RPC will not show when playing CTGP-7, it will only show when playing vanilla MK7.
+As mentioned before, both methods of installation let you play in CTGP-7. But as CTGP-7 uses its own Luma3DS plugin, discord RPC will not show when playing CTGP-7, it will only show when playing vanilla MK7.
+
+## Build the Luma3DS plugin yourself
+
+First of all download devkitPro Updater from the [official github](https://github.com/devkitPro/installer/releases) and select the option that says "3DS Development". This gives you the compiler, libctru and an msys2 terminal.
+
+Secondly, (using the msys2 terminal) follow the [CTRPluginFramework README](https://gitlab.com/thepixellizeross/ctrpluginframework) to add their package database. Then install CTRPluginFramework and [3gxtool](https://gitlab.com/thepixellizeross/3gxtool) with:
+
+```
+pacman -Sy
+pacman -S libctrpf 3gxtool
+```
+
+Now you just have to go to the luma-plugin-3dsrpc project folder and type:
+
+```
+make luma-plugin-3dsrpc-release.3gx
+```
+
+## Build the companion app yourself
+
+Install IntelliJ (as it comes with maven) and open the "companion" folder inside of the project (You need JDK25). Now from the Maven tab run "package" and it will create a .jar ready to run. If you want a ready to run file that doesn't need a java installation you can use jpackage to get an .exe.
