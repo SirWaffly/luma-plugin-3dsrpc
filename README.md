@@ -35,11 +35,7 @@ port=47800
 
 The companion app has only been tested on windows.
 
-You have two ways of using the companion PC app. Either download the .jar file (smaller in size but requires a java 25 installation or newer) or you can download the .zip file that doesn't require a java installation. If you need to change the port in any way you'll need the .jar file and to run it like this:
-
-```
-java -jar luma-plugin-3dsrpc-companion.jar --server.port=50000
-```
+You have two ways of using the companion PC app. Either download the .jar file (smaller in size but requires a java 25 installation or newer) or you can download the .zip file that doesn't require a java installation (I recommend the zip file for most cases). If you need to change the port in any way you'll need the to edit the config.json file that is created once you've opened it for the first time. Simply edit the field that says "port" with the number matching your 3DS config file and restart the application (They are the same by default).
 
 IF YOU OPEN THE .EXE IT WILL BE DISPLAYED AS A SYSTEM TRAY ICON, IF YOU WANT THE TERMINAL WINDOW YOU'LL HAVE TO USE THE .JAR.
 
