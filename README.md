@@ -10,6 +10,8 @@ This project is licensed under the PolyForm Noncommercial License 1.0.0.
 
 ## Why this plugin was created
 
+UPDATE: Since the creation of this project the developer for CTGP-7, PabloMK7, added an option to play a different instance of the modpack for people with custom Luma3DS fork or emulator, so this plugin is no longer needed as long as you don't mind playing with a weaker anticheat. The development will not stop, however, I no longer recommend using this project unless you're concerned about privacy or want to play the main version of CTGP-7.
+
 Right now there are 2 popular ways of getting Discord RPC functionality on 3DS. One of them is friend request based, and the other one requires a custom Luma3DS fork, which makes playing CTGP-7 impossible (without bypassing the anticheat). My solution aims to be privacy-focused as everything is run locally and does not require a fork of Luma3DS since it's a plugin that works with the vanilla version of Luma3DS.
 
 ## Limitations
