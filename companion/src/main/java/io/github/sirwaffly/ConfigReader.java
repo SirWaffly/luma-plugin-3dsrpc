@@ -74,4 +74,16 @@ public class ConfigReader {
         return config.port;
     }
 
+    public boolean isUpdateEnabled() throws IOException {
+
+        FileReader reader = new FileReader("config.json");
+
+        ConfigData config = gson.fromJson(reader, ConfigData.class);
+
+        reader.close();
+
+        return config.updateOnStartup;
+
+    }
+
 }
