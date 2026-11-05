@@ -1,4 +1,64 @@
 {
+    "0004000000163000": {
+        "name": "Chibi-Robo! Zip Lash",
+        "image": "chibi-robo-zip-lash"
+    },
+    "0004000000162F00": {
+        "name": "Chibi-Robo! Zip Lash",
+        "image": "chibi-robo-zip-lash"
+    },
+    "0004000000152600": {
+        "name": "Chibi-Robo! Zip Lash",
+        "image": "chibi-robo-zip-lash"
+    },
+    "00040000001A4800": {
+        "name": "Ever Oasis",
+        "image": "ever-oasis"
+    },
+    "00040000001A4900": {
+        "name": "Ever Oasis",
+        "image": "ever-oasis"
+    },
+    "0004000000164A00": {
+        "name": "Ever Oasis",
+        "image": "ever-oasis"
+    },
+    "0004000000113200": {
+        "name": "Fantasy Life",
+        "image": "fantasy-life"
+    },
+    "0004000000113100": {
+        "name": "Fantasy Life",
+        "image": "fantasy-life"
+    },
+    "000400000008D300": {
+        "name": "Kingdom Hearts 3D: Dream Drop Distance",
+        "image": "kingdom-hearts-3d-dream-drop-distance"
+    },
+    "0004000000095500": {
+        "name": "Kingdom Hearts 3D: Dream Drop Distance",
+        "image": "kingdom-hearts-3d-dream-drop-distance"
+    },
+    "000400000004EE00": {
+        "name": "Kingdom Hearts 3D: Dream Drop Distance",
+        "image": "kingdom-hearts-3d-dream-drop-distance"
+    },
+    "00040000001D1E00": {
+        "name": "Kirby's Extra Epic Yarn",
+        "image": "kirbys-extra-epic-yarn"
+    },
+    "00040000001D1F00": {
+        "name": "Kirby's Extra Epic Yarn",
+        "image": "kirbys-extra-epic-yarn"
+    },
+    "00040000001D1200": {
+        "name": "Kirby's Extra Epic Yarn",
+        "image": "kirbys-extra-epic-yarn"
+    },
+    "00040000001D7500": {
+        "name": "Kirby's Extra Epic Yarn",
+        "image": "kirbys-extra-epic-yarn"
+    },
     "0004001000021700": {
         "name": "Mii Maker",
         "image": "mii-maker"
@@ -491,6 +551,30 @@
         "name": "Metroid: Samus Returns",
         "image": "metroid-samus-returns"
     },
+    "00040000001B4E00": {
+        "name": "Miitopia",
+        "image": "miitopia"
+    },
+    "00040000001B4F00": {
+        "name": "Miitopia",
+        "image": "miitopia"
+    },
+    "0004000000178800": {
+        "name": "Miitopia",
+        "image": "miitopia"
+    },
+    "00040000001B8700": {
+        "name": "Minecraft: New Nintendo 3DS Edition",
+        "image": "minecraft-new-nintendo-3ds-edition"
+    },
+    "000400000017CA00": {
+        "name": "Minecraft: New Nintendo 3DS Edition",
+        "image": "minecraft-new-nintendo-3ds-edition"
+    },
+    "000400000017FD00": {
+        "name": "Minecraft: New Nintendo 3DS Edition",
+        "image": "minecraft-new-nintendo-3ds-edition"
+    },
     "0004000000126300": {
         "name": "Monster Hunter 4 Ultimate",
         "image": "monster-hunter-4-ultimate"
@@ -543,6 +627,10 @@
         "name": "Monster Hunter Stories",
         "image": "monster-hunter-stories"
     },
+    "00040000001BB900": {
+        "name": "Neko Atsume",
+        "image": "neko-atsume"
+    },
     "000400000007AE00": {
         "name": "New Super Mario Bros. 2",
         "image": "new-super-mario-bros-2"
@@ -562,6 +650,18 @@
     "00040000000B8A00": {
         "name": "New Super Mario Bros. 2",
         "image": "new-super-mario-bros-2"
+    },
+    "0004000000153500": {
+        "name": "Nintendo Badge Arcade",
+        "image": "nintendo-badge-arcade"
+    },
+    "0004000000153600": {
+        "name": "Nintendo Badge Arcade",
+        "image": "nintendo-badge-arcade"
+    },
+    "0004000000134600": {
+        "name": "Nintendo Badge Arcade",
+        "image": "nintendo-badge-arcade"
     },
     "0004000000031200": {
         "name": "nintendogs + cats: French Bulldog",
@@ -671,6 +771,58 @@
         "name": "Persona Q2: New Cinema Labyrinth",
         "image": "persona-q2-new-cinema-labyrinth"
     },
+    "00040000000F1400": {
+        "name": "Phoenix Wright: Ace Attorney - Dual Destinies",
+        "image": "phoenix-wright-ace-attorney-dual-destinies"
+    },
+    "00040000000F1E00": {
+        "name": "Phoenix Wright: Ace Attorney - Dual Destinies",
+        "image": "phoenix-wright-ace-attorney-dual-destinies"
+    },
+    "00040000000BAA00": {
+        "name": "Phoenix Wright: Ace Attorney - Dual Destinies",
+        "image": "phoenix-wright-ace-attorney-dual-destinies"
+    },
+    "00040000000FEB00": {
+        "name": "Phoenix Wright: Ace Attorney - Dual Destinies",
+        "image": "phoenix-wright-ace-attorney-dual-destinies"
+    },
+    "00040000000FD300": {
+        "name": "Phoenix Wright: Ace Attorney - Dual Destinies",
+        "image": "phoenix-wright-ace-attorney-dual-destinies"
+    },
+    "000400000018F400": {
+        "name": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+        "image": "phoenix-wright-ace-attorney-spirit-of-justice"
+    },
+    "000400000018FA00": {
+        "name": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+        "image": "phoenix-wright-ace-attorney-spirit-of-justice"
+    },
+    "0004000000166A00": {
+        "name": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+        "image": "phoenix-wright-ace-attorney-spirit-of-justice"
+    },
+    "000400000018F900": {
+        "name": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+        "image": "phoenix-wright-ace-attorney-spirit-of-justice"
+    },
+    "000400000018E700": {
+        "name": "Phoenix Wright: Ace Attorney - Spirit of Justice",
+        "image": "phoenix-wright-ace-attorney-spirit-of-justice"
+    },
+    "0004000000187D00": {
+        "name": "Picross 3D: Round 2",
+        "image": "picross-3d-round-2"
+    },
+    "0004000000187E00": {
+        "name": "Picross 3D: Round 2",
+        "image": "picross-3d-round-2"
+    },
+    "0004000000169A00": {
+        "name": "Picross 3D: Round 2",
+        "image": "picross-3d-round-2"
+    },
     "0004000000031C00": {
         "name": "Pilotwings Resort",
         "image": "pilotwings-resort"
@@ -707,6 +859,10 @@
         "name": "Pokémon Art Academy",
         "image": "pokemon-art-academy"
     },
+    "00040000000C9B00": {
+        "name": "Pokémon Bank",
+        "image": "pokemon-bank"
+    },
     "0004000000175E00": {
         "name": "Pokémon Moon",
         "image": "pokemon-moon"
@@ -730,6 +886,14 @@
     "000400000017C100": {
         "name": "Pokémon Picross",
         "image": "pokemon-picross"
+    },
+    "0004000000164600": {
+        "name": "Pokémon Rumble World",
+        "image": "pokemon-rumble-world"
+    },
+    "0004000000141000": {
+        "name": "Pokémon Shuffle",
+        "image": "pokemon-shuffle"
     },
     "0004000000164800": {
         "name": "Pokémon Sun",
@@ -803,6 +967,42 @@
         "name": "Professor Layton and the Miracle Mask",
         "image": "professor-layton-and-the-miracle-mask"
     },
+    "0004000000060200": {
+        "name": "Resident Evil: Revelations",
+        "image": "resident-evil-revelations"
+    },
+    "000400000005EE00": {
+        "name": "Resident Evil: Revelations",
+        "image": "resident-evil-revelations"
+    },
+    "0004000000053B00": {
+        "name": "Resident Evil: Revelations",
+        "image": "resident-evil-revelations"
+    },
+    "000400000009FF00": {
+        "name": "Resident Evil: Revelations",
+        "image": "resident-evil-revelations"
+    },
+    "00040000000A0000": {
+        "name": "Resident Evil: Revelations",
+        "image": "resident-evil-revelations"
+    },
+    "000400000018A400": {
+        "name": "Rhythm Heaven Megamix",
+        "image": "rhythm-heaven-megamix"
+    },
+    "000400000018A500": {
+        "name": "Rhythm Heaven Megamix",
+        "image": "rhythm-heaven-megamix"
+    },
+    "0004000000155A00": {
+        "name": "Rhythm Heaven Megamix",
+        "image": "rhythm-heaven-megamix"
+    },
+    "000400000018A600": {
+        "name": "Rhythm Heaven Megamix",
+        "image": "rhythm-heaven-megamix"
+    },
     "00040000000E5C00": {
         "name": "Shin Megami Tensei IV",
         "image": "shin-megami-tensei-iv"
@@ -842,6 +1042,18 @@
     "000400000012CB00": {
         "name": "Shovel Knight: Treasure Trove",
         "image": "shovel-knight-treasure-trove"
+    },
+    "0004000000062300": {
+        "name": "Sonic Generations",
+        "image": "sonic-generations"
+    },
+    "0004000000062200": {
+        "name": "Sonic Generations",
+        "image": "sonic-generations"
+    },
+    "000400000004CA00": {
+        "name": "Sonic Generations",
+        "image": "sonic-generations"
     },
     "0004000000049000": {
         "name": "Star Fox 64 3D",
@@ -1095,6 +1307,18 @@
         "name": "The Legend of Zelda: Tri Force Heroes",
         "image": "the-legend-of-zelda-tri-force-heroes"
     },
+    "00040000000FD500": {
+        "name": "Theatrhythm Final Fantasy: Curtain Call",
+        "image": "theatrhythm-final-fantasy-curtain-call"
+    },
+    "00040000000FCA00": {
+        "name": "Theatrhythm Final Fantasy: Curtain Call",
+        "image": "theatrhythm-final-fantasy-curtain-call"
+    },
+    "00040000000E9A00": {
+        "name": "Theatrhythm Final Fantasy: Curtain Call",
+        "image": "theatrhythm-final-fantasy-curtain-call"
+    },
     "000400000008C300": {
         "name": "Tomodachi Life",
         "image": "tomodachi-life"
@@ -1110,6 +1334,10 @@
     "0004000000120C00": {
         "name": "Tomodachi Life",
         "image": "tomodachi-life"
+    },
+    "00040000001D1C00": {
+        "name": "WarioWare Gold",
+        "image": "warioware-gold"
     },
     "000400000F700100": {
         "name": "Xenoblade Chronicles 3D",
@@ -1130,6 +1358,82 @@
     "000400000F700700": {
         "name": "Xenoblade Chronicles 3D",
         "image": "xenoblade-chronicles-3d"
+    },
+    "0004000000167700": {
+        "name": "Yo-kai Watch",
+        "image": "yo-kai-watch"
+    },
+    "0004000000167800": {
+        "name": "Yo-kai Watch",
+        "image": "yo-kai-watch"
+    },
+    "00040000000CF400": {
+        "name": "Yo-kai Watch",
+        "image": "yo-kai-watch"
+    },
+    "0004000000167600": {
+        "name": "Yo-kai Watch",
+        "image": "yo-kai-watch"
+    },
+    "000400000019A900": {
+        "name": "Yo-kai Watch 2: Bony Spirits",
+        "image": "yo-kai-watch-2-bony-spirits"
+    },
+    "000400000019AB00": {
+        "name": "Yo-kai Watch 2: Bony Spirits",
+        "image": "yo-kai-watch-2-bony-spirits"
+    },
+    "000400000012F900": {
+        "name": "Yo-kai Watch 2: Bony Spirits",
+        "image": "yo-kai-watch-2-bony-spirits"
+    },
+    "000400000019AE00": {
+        "name": "Yo-kai Watch 2: Bony Spirits",
+        "image": "yo-kai-watch-2-bony-spirits"
+    },
+    "000400000019AA00": {
+        "name": "Yo-kai Watch 2: Fleshy Souls",
+        "image": "yo-kai-watch-2-fleshy-souls"
+    },
+    "000400000019AC00": {
+        "name": "Yo-kai Watch 2: Fleshy Souls",
+        "image": "yo-kai-watch-2-fleshy-souls"
+    },
+    "000400000012F800": {
+        "name": "Yo-kai Watch 2: Fleshy Souls",
+        "image": "yo-kai-watch-2-fleshy-souls"
+    },
+    "000400000019AF00": {
+        "name": "Yo-kai Watch 2: Fleshy Souls",
+        "image": "yo-kai-watch-2-fleshy-souls"
+    },
+    "00040000001B2700": {
+        "name": "Yo-kai Watch 2: Psychic Specters",
+        "image": "yo-kai-watch-2-psychic-specters"
+    },
+    "00040000001B2900": {
+        "name": "Yo-kai Watch 2: Psychic Specters",
+        "image": "yo-kai-watch-2-psychic-specters"
+    },
+    "0004000000155100": {
+        "name": "Yo-kai Watch 2: Psychic Specters",
+        "image": "yo-kai-watch-2-psychic-specters"
+    },
+    "00040000001B2A00": {
+        "name": "Yo-kai Watch 2: Psychic Specters",
+        "image": "yo-kai-watch-2-psychic-specters"
+    },
+    "00040000001D6700": {
+        "name": "Yo-kai Watch 3",
+        "image": "yo-kai-watch-3"
+    },
+    "00040000001D6800": {
+        "name": "Yo-kai Watch 3",
+        "image": "yo-kai-watch-3"
+    },
+    "00040000001AF400": {
+        "name": "Yo-kai Watch 3",
+        "image": "yo-kai-watch-3"
     },
     "0004000000111B00": {
         "name": "Yoshi's New Island",
