@@ -12,11 +12,15 @@ This project is licensed under the PolyForm Noncommercial License 1.0.0.
 
 UPDATE: Since the creation of this project the developer for CTGP-7, PabloMK7, added an option to play a different instance of the modpack for people with custom Luma3DS fork or emulator, so this plugin is no longer needed as long as you don't mind playing with a weaker anticheat. The development will not stop, however, I no longer recommend using this project unless you're concerned about privacy or want to play the main version of CTGP-7.
 
-Right now there are 2 popular ways of getting Discord RPC functionality on 3DS. One of them is friend request based, and the other one requires a custom Luma3DS fork, which makes playing CTGP-7 impossible (without bypassing the anticheat). My solution aims to be privacy-focused as everything is run locally and does not require a fork of Luma3DS since it's a plugin that works with the vanilla version of Luma3DS.
+Right now there are 2 popular ways of getting Discord RPC functionality on 3DS. One of them is friend request based, and the other one requires a custom Luma3DS fork, which makes playing the main branch of CTGP-7 impossible (without bypassing the anticheat). My solution aims to be privacy-focused as everything is run locally and does not require a fork of Luma3DS since it's a plugin that works with the vanilla version of Luma3DS.
 
 ## Limitations
 
 Since this is a Luma3DS plugin it will not be able to run in games that already have one active plugin. CTGP-7 is an example of this, you're able to open the mod but it won't display it on Discord.
+
+# Kown Issues
+
+There are some games that will crash with this plugin, normally only on OG 3DS systems. The only one I was able to find throughout testing is Ocarina of Time 3D and I am unaware on how to fix this issue. For these games I recommend disabling the plugin loader until you've finished the session. I am unaware of how to fix this issue.
 
 ## How to install the plugin on the 3DS
 
