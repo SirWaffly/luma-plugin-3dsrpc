@@ -18,7 +18,7 @@ Right now there are 2 popular ways of getting Discord RPC functionality on 3DS. 
 
 Since this is a Luma3DS plugin it will not be able to run in games that already have one active plugin. CTGP-7 is an example of this, you're able to open the mod but it won't display it on Discord.
 
-# Kown Issues
+# Known Issues
 
 There are some games that will crash with this plugin, normally only on OG 3DS systems. The only one I was able to find throughout testing is Ocarina of Time 3D and I am unaware on how to fix this issue. For these games I recommend disabling the plugin loader until you've finished the session. I am unaware of how to fix this issue.
 
